@@ -1,0 +1,57 @@
+.hero {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.hero .left-section {
+    flex-grow: 1;
+}
+
+.hero .left-section .parent-avatar {
+    display: flex;
+    align-items: end;
+    gap: 0.6rem;
+    min-height: 90px;
+}
+
+.hero .left-section .avatar {
+    width: 88px;
+    border: 1px solid darkorange;
+    border-radius: 50%;
+    padding: 1px;
+    box-shadow: 1px 1px 40px white inset;
+}
+
+.hero .left-section .verifiedIcon {
+    color: var(--blue-color);
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.hero .left-section .title {
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--text-color);
+}
+
+.hero .left-section .subtitle {
+    color: var(--subtext-color);
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+}
+
+.hero .left-section .icons-section {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--subtext-color);
+}
+
+.hero .left-section .icons-section .icon:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    color: var(--icon-hover);
+    font-size: 1.8rem;
+}
